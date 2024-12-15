@@ -37,7 +37,7 @@ app.listen(port, () => {
   console.log('\x1b[36m[ SERVER ]\x1b[0m', '\x1b[32m SH : http://localhost:' + port + ' ✅\x1b[0m');
 });
 
-const statusMessages = ["🎧 Listening to Youtube", "🎮 Playing Minecraft"];
+const statusMessages = ["❤ Subscribe to all Connection Studio social networks", "🔔 Activate the bell so you don't miss any updates", "🎮 Playing Studio Center"];
 const statusTypes = [ 'dnd', 'idle'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
