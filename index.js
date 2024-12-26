@@ -37,7 +37,7 @@ app.listen(port, () => {
   console.log('\x1b[36m[ SERVER ]\x1b[0m', '\x1b[32m SH : http://localhost:' + port + ' ✅\x1b[0m');
 });
 
-const statusMessages = ["🎅 MERRY CHRISTMAS!", "🎁 MERRY CHRISTMAS!", "✨ 6 DAYS TO 2025"];
+const statusMessages = ["✨ 5 DAYS TO 2025!", "✨ 5 DAYS TO 2025!", "✨ 5 DAYS TO 2025!"];
 const statusTypes = [ 'dnd', 'idle'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
