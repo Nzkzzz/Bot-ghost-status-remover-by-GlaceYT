@@ -37,7 +37,7 @@ app.listen(port, () => {
   console.log('\x1b[36m[ SERVER ]\x1b[0m', '\x1b[32m SH : http://localhost:' + port + ' ✅\x1b[0m');
 });
 
-const statusMessages = ["✨ 9 HOURS TO 2025!", "✨ 9 HOURS TO 2025!", "✨ 9 HOURS TO 2025!"];
+const statusMessages = ["✨ 8 HOURS TO 2025!", "✨ 8 HOURS TO 2025!", "✨ 8 HOURS TO 2025!"];
 const statusTypes = [ 'dnd', 'idle'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
